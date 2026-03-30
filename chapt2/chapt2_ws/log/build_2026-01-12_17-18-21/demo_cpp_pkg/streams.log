@@ -1,0 +1,38 @@
+[0.009s] Invoking command in '/home/yuan/chapt2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuan/chapt2/chapt2_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/yuan/chapt2/chapt2_ws/build/demo_cpp_pkg -- -j16 -l16
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target learn_auto[0m
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target learn_lambda[0m
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target learn_function[0m
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target learn_shared_ptr[0m
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target person_node[0m
+[0.055s] [ 50%] Built target learn_function
+[0.055s] [ 50%] Built target learn_auto
+[0.055s] [ 66%] Built target learn_lambda
+[0.055s] [ 66%] Built target learn_shared_ptr
+[0.059s] [ 83%] Built target cpp_node
+[0.059s] [100%] Built target person_node
+[0.069s] Invoked command in '/home/yuan/chapt2/chapt2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuan/chapt2/chapt2_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/yuan/chapt2/chapt2_ws/build/demo_cpp_pkg -- -j16 -l16
+[0.077s] Invoking command in '/home/yuan/chapt2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuan/chapt2/chapt2_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/yuan/chapt2/chapt2_ws/build/demo_cpp_pkg
+[0.082s] -- Install configuration: ""
+[0.083s] -- Up-to-date: /home/yuan/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node
+[0.083s] -- Up-to-date: /home/yuan/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node
+[0.083s] -- Up-to-date: /home/yuan/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_auto
+[0.083s] -- Up-to-date: /home/yuan/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_shared_ptr
+[0.083s] -- Up-to-date: /home/yuan/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_lambda
+[0.084s] -- Up-to-date: /home/yuan/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_function
+[0.084s] -- Up-to-date: /home/yuan/chapt2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg
+[0.084s] -- Up-to-date: /home/yuan/chapt2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg
+[0.084s] -- Up-to-date: /home/yuan/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh
+[0.084s] -- Up-to-date: /home/yuan/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv
+[0.084s] -- Up-to-date: /home/yuan/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh
+[0.084s] -- Up-to-date: /home/yuan/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv
+[0.084s] -- Up-to-date: /home/yuan/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash
+[0.084s] -- Up-to-date: /home/yuan/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh
+[0.084s] -- Up-to-date: /home/yuan/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh
+[0.084s] -- Up-to-date: /home/yuan/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv
+[0.084s] -- Installing: /home/yuan/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv
+[0.084s] -- Up-to-date: /home/yuan/chapt2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg
+[0.084s] -- Up-to-date: /home/yuan/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake
+[0.085s] -- Up-to-date: /home/yuan/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake
+[0.085s] -- Up-to-date: /home/yuan/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml
+[0.086s] Invoked command in '/home/yuan/chapt2/chapt2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuan/chapt2/chapt2_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/yuan/chapt2/chapt2_ws/build/demo_cpp_pkg

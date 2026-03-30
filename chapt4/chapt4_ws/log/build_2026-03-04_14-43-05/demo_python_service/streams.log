@@ -1,0 +1,49 @@
+[0.464s] Invoking command in '/home/yuan/chapt4/chapt4_ws/src/demo_python_service': AMENT_PREFIX_PATH=/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces LD_LIBRARY_PATH=/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yuan/chapt4/chapt4_ws/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuan/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages:/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/yuan/chapt4/chapt4_ws/build/demo_python_service/build install --record /home/yuan/chapt4/chapt4_ws/build/demo_python_service/install.log --single-version-externally-managed install_data
+[0.641s] running egg_info
+[0.641s] creating ../../build/demo_python_service/demo_python_service.egg-info
+[0.641s] writing ../../build/demo_python_service/demo_python_service.egg-info/PKG-INFO
+[0.641s] writing dependency_links to ../../build/demo_python_service/demo_python_service.egg-info/dependency_links.txt
+[0.641s] writing entry points to ../../build/demo_python_service/demo_python_service.egg-info/entry_points.txt
+[0.641s] writing requirements to ../../build/demo_python_service/demo_python_service.egg-info/requires.txt
+[0.642s] writing top-level names to ../../build/demo_python_service/demo_python_service.egg-info/top_level.txt
+[0.642s] writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.643s] reading manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.643s] adding license file 'LICENSE'
+[0.643s] writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.643s] running build
+[0.644s] running build_py
+[0.644s] creating /home/yuan/chapt4/chapt4_ws/build/demo_python_service/build
+[0.644s] creating /home/yuan/chapt4/chapt4_ws/build/demo_python_service/build/lib
+[0.644s] creating /home/yuan/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service
+[0.644s] copying demo_python_service/__init__.py -> /home/yuan/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service
+[0.644s] copying demo_python_service/face_detect_client_node.py -> /home/yuan/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service
+[0.644s] copying demo_python_service/face_detect_node.py -> /home/yuan/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service
+[0.644s] copying demo_python_service/learn_face_detect.py -> /home/yuan/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service
+[0.644s] running install
+[0.644s] running install_lib
+[0.645s] creating /home/yuan/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service
+[0.645s] copying /home/yuan/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service/__init__.py -> /home/yuan/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service
+[0.645s] copying /home/yuan/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service/face_detect_client_node.py -> /home/yuan/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service
+[0.645s] copying /home/yuan/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service/face_detect_node.py -> /home/yuan/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service
+[0.645s] copying /home/yuan/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service/learn_face_detect.py -> /home/yuan/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service
+[0.646s] byte-compiling /home/yuan/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/__init__.py to __init__.cpython-310.pyc
+[0.646s] byte-compiling /home/yuan/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect_client_node.py to face_detect_client_node.cpython-310.pyc
+[0.646s] byte-compiling /home/yuan/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect_node.py to face_detect_node.cpython-310.pyc
+[0.647s] byte-compiling /home/yuan/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/learn_face_detect.py to learn_face_detect.cpython-310.pyc
+[0.647s] running install_data
+[0.647s] creating /home/yuan/chapt4/chapt4_ws/install/demo_python_service/share/ament_index
+[0.647s] creating /home/yuan/chapt4/chapt4_ws/install/demo_python_service/share/ament_index/resource_index
+[0.647s] creating /home/yuan/chapt4/chapt4_ws/install/demo_python_service/share/ament_index/resource_index/packages
+[0.647s] copying resource/demo_python_service -> /home/yuan/chapt4/chapt4_ws/install/demo_python_service/share/ament_index/resource_index/packages
+[0.647s] copying package.xml -> /home/yuan/chapt4/chapt4_ws/install/demo_python_service/share/demo_python_service
+[0.647s] creating /home/yuan/chapt4/chapt4_ws/install/demo_python_service/share/demo_python_service/resource
+[0.647s] copying resource/ceshi.jpg -> /home/yuan/chapt4/chapt4_ws/install/demo_python_service/share/demo_python_service/resource
+[0.648s] copying resource/ceshi2.jpg -> /home/yuan/chapt4/chapt4_ws/install/demo_python_service/share/demo_python_service/resource
+[0.649s] running install_egg_info
+[0.650s] Copying ../../build/demo_python_service/demo_python_service.egg-info to /home/yuan/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info
+[0.651s] running install_scripts
+[0.667s] Installing face_detect_client_node script to /home/yuan/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service
+[0.667s] Installing face_detect_node script to /home/yuan/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service
+[0.667s] Installing learn_face_detect script to /home/yuan/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service
+[0.668s] writing list of installed files to '/home/yuan/chapt4/chapt4_ws/build/demo_python_service/install.log'
+[0.687s] Invoked command in '/home/yuan/chapt4/chapt4_ws/src/demo_python_service' returned '0': AMENT_PREFIX_PATH=/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces LD_LIBRARY_PATH=/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yuan/chapt4/chapt4_ws/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuan/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages:/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/yuan/chapt4/chapt4_ws/build/demo_python_service/build install --record /home/yuan/chapt4/chapt4_ws/build/demo_python_service/install.log --single-version-externally-managed install_data

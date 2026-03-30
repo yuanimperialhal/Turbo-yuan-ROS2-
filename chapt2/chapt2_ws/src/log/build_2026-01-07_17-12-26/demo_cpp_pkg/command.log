@@ -1,0 +1,2 @@
+Invoking command in '/home/yuan/chapt2/chapt2_ws/src/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuan/chapt2/chapt2_ws/src/build/demo_cpp_pkg -- -j16 -l16
+Invoked command in '/home/yuan/chapt2/chapt2_ws/src/build/demo_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuan/chapt2/chapt2_ws/src/build/demo_cpp_pkg -- -j16 -l16

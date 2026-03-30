@@ -1,0 +1,27 @@
+[0.447s] Invoking command in '/home/yuan/chapt4/chapt4_ws/src/demo_python_service': CMAKE_PREFIX_PATH=/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces:/home/yuan/chapt4/chapt4_ws/install/demo_cpp_service PYTHONPATH=/home/yuan/chapt4/chapt4_ws/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuan/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/yuan/chapt4/chapt4_ws/build/demo_python_service/build install --record /home/yuan/chapt4/chapt4_ws/build/demo_python_service/install.log --single-version-externally-managed install_data
+[0.620s] running egg_info
+[0.620s] writing ../../build/demo_python_service/demo_python_service.egg-info/PKG-INFO
+[0.620s] writing dependency_links to ../../build/demo_python_service/demo_python_service.egg-info/dependency_links.txt
+[0.620s] writing entry points to ../../build/demo_python_service/demo_python_service.egg-info/entry_points.txt
+[0.621s] writing requirements to ../../build/demo_python_service/demo_python_service.egg-info/requires.txt
+[0.621s] writing top-level names to ../../build/demo_python_service/demo_python_service.egg-info/top_level.txt
+[0.622s] reading manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.622s] adding license file 'LICENSE'
+[0.623s] writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.623s] running build
+[0.623s] running build_py
+[0.623s] copying demo_python_service/face_detect_node.py -> /home/yuan/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service
+[0.623s] running install
+[0.623s] running install_lib
+[0.624s] copying /home/yuan/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service/face_detect_node.py -> /home/yuan/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service
+[0.625s] byte-compiling /home/yuan/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect_node.py to face_detect_node.cpython-310.pyc
+[0.625s] running install_data
+[0.625s] running install_egg_info
+[0.627s] removing '/home/yuan/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info' (and everything under it)
+[0.627s] Copying ../../build/demo_python_service/demo_python_service.egg-info to /home/yuan/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info
+[0.628s] running install_scripts
+[0.643s] Installing face_detect_client_node script to /home/yuan/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service
+[0.643s] Installing face_detect_node script to /home/yuan/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service
+[0.643s] Installing learn_face_detect script to /home/yuan/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service
+[0.643s] writing list of installed files to '/home/yuan/chapt4/chapt4_ws/build/demo_python_service/install.log'
+[0.664s] Invoked command in '/home/yuan/chapt4/chapt4_ws/src/demo_python_service' returned '0': CMAKE_PREFIX_PATH=/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces:/home/yuan/chapt4/chapt4_ws/install/demo_cpp_service PYTHONPATH=/home/yuan/chapt4/chapt4_ws/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuan/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/yuan/chapt4/chapt4_ws/build/demo_python_service/build install --record /home/yuan/chapt4/chapt4_ws/build/demo_python_service/install.log --single-version-externally-managed install_data

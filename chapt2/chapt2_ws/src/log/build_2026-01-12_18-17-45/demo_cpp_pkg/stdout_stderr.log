@@ -1,0 +1,15 @@
+[35m[1mConsolidate compiler generated dependencies of target learn_function[0m
+[ 50%] Built target learn_auto
+[ 50%] Built target learn_lambda
+[ 50%] [32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o[0m
+[ 50%] Built target learn_shared_ptr
+[ 64%] Built target learn_function
+[ 78%] Built target person_node
+[ 92%] Built target cpp_node
+[01m[K/home/yuan/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_thread.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kcpp-httplib/httplib.h: 没有那个文件或目录
+    6 | #include [01;31m[K<cpp-httplib/httplib.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/learn_thread.dir/build.make:76：CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:305：CMakeFiles/learn_thread.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

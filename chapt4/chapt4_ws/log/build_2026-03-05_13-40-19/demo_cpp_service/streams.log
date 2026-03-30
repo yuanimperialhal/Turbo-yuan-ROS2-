@@ -1,0 +1,24 @@
+[0.010s] Invoking command in '/home/yuan/chapt4/chapt4_ws/build/demo_cpp_service': AMENT_PREFIX_PATH=/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yuan/chapt4/chapt4_ws/build/demo_cpp_service -- -j16 -l16
+[0.072s] [100%] Built target turtle_control
+[0.072s] [100%] Built target patrol_client
+[0.211s] Invoked command in '/home/yuan/chapt4/chapt4_ws/build/demo_cpp_service' returned '0': AMENT_PREFIX_PATH=/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yuan/chapt4/chapt4_ws/build/demo_cpp_service -- -j16 -l16
+[0.213s] Invoking command in '/home/yuan/chapt4/chapt4_ws/build/demo_cpp_service': AMENT_PREFIX_PATH=/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yuan/chapt4/chapt4_ws/build/demo_cpp_service
+[0.220s] -- Install configuration: ""
+[0.221s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/demo_cpp_service/lib/demo_cpp_service/turtle_control
+[0.223s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/demo_cpp_service/lib/demo_cpp_service/patrol_client
+[0.223s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/demo_cpp_service/share/ament_index/resource_index/package_run_dependencies/demo_cpp_service
+[0.223s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/demo_cpp_service/share/ament_index/resource_index/parent_prefix_path/demo_cpp_service
+[0.223s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/ament_prefix_path.sh
+[0.223s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/ament_prefix_path.dsv
+[0.223s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/path.sh
+[0.223s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/path.dsv
+[0.223s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/local_setup.bash
+[0.223s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/local_setup.sh
+[0.223s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/local_setup.zsh
+[0.223s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/local_setup.dsv
+[0.223s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/package.dsv
+[0.224s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/demo_cpp_service/share/ament_index/resource_index/packages/demo_cpp_service
+[0.224s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/cmake/demo_cpp_serviceConfig.cmake
+[0.224s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/cmake/demo_cpp_serviceConfig-version.cmake
+[0.224s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/package.xml
+[0.226s] Invoked command in '/home/yuan/chapt4/chapt4_ws/build/demo_cpp_service' returned '0': AMENT_PREFIX_PATH=/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yuan/chapt4/chapt4_ws/build/demo_cpp_service

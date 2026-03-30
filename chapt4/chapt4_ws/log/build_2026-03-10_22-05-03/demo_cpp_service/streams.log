@@ -1,0 +1,53 @@
+[0.010s] Invoking command in '/home/yuan/chapt4/chapt4_ws/build/demo_cpp_service': CMAKE_PREFIX_PATH=/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces:/home/yuan/chapt4/chapt4_ws/install/demo_cpp_service:/home/yuan/astra_ws/install/astra_camera:/home/yuan/astra_ws/install/astra_camera_msgs:/home/yuan/chapt4/chapt4_ws/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --build /home/yuan/chapt4/chapt4_ws/build/demo_cpp_service -- -j16 -l16
+[0.038s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.168s] -- Found chapt4_interfaces: 0.0.0 (/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake)
+[0.205s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.208s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.220s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.235s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.255s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.338s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.376s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.379s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.490s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.535s] -- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)
+[0.582s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.650s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.650s] -- Configured cppcheck include dirs: 
+[0.650s] -- Configured cppcheck exclude dirs and/or files: 
+[0.650s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.651s] -- Added test 'lint_cmake' to check CMake code style
+[0.652s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.653s] -- Added test 'uncrustify' to check C / C++ code style
+[0.653s] -- Configured uncrustify additional arguments: 
+[0.654s] -- Added test 'xmllint' to check XML markup files
+[0.656s] -- Configuring done
+[0.671s] -- Generating done
+[0.676s] -- Build files have been written to: /home/yuan/chapt4/chapt4_ws/build/demo_cpp_service
+[0.702s] [35m[1mConsolidate compiler generated dependencies of target patrol_client[0m
+[0.702s] [35m[1mConsolidate compiler generated dependencies of target turtle_control[0m
+[0.720s] [ 50%] Built target patrol_client
+[0.720s] [100%] Built target turtle_control
+[0.731s] Invoked command in '/home/yuan/chapt4/chapt4_ws/build/demo_cpp_service' returned '0': CMAKE_PREFIX_PATH=/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces:/home/yuan/chapt4/chapt4_ws/install/demo_cpp_service:/home/yuan/astra_ws/install/astra_camera:/home/yuan/astra_ws/install/astra_camera_msgs:/home/yuan/chapt4/chapt4_ws/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --build /home/yuan/chapt4/chapt4_ws/build/demo_cpp_service -- -j16 -l16
+[0.732s] Invoking command in '/home/yuan/chapt4/chapt4_ws/build/demo_cpp_service': CMAKE_PREFIX_PATH=/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces:/home/yuan/chapt4/chapt4_ws/install/demo_cpp_service:/home/yuan/astra_ws/install/astra_camera:/home/yuan/astra_ws/install/astra_camera_msgs:/home/yuan/chapt4/chapt4_ws/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --install /home/yuan/chapt4/chapt4_ws/build/demo_cpp_service
+[0.739s] -- Install configuration: ""
+[0.739s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/demo_cpp_service/lib/demo_cpp_service/turtle_control
+[0.740s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/demo_cpp_service/lib/demo_cpp_service/patrol_client
+[0.740s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service//launch
+[0.740s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service//launch/demo.launch.py
+[0.740s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/demo_cpp_service/share/ament_index/resource_index/package_run_dependencies/demo_cpp_service
+[0.740s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/demo_cpp_service/share/ament_index/resource_index/parent_prefix_path/demo_cpp_service
+[0.740s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/ament_prefix_path.sh
+[0.740s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/ament_prefix_path.dsv
+[0.741s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/path.sh
+[0.741s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/path.dsv
+[0.741s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/local_setup.bash
+[0.741s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/local_setup.sh
+[0.741s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/local_setup.zsh
+[0.741s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/local_setup.dsv
+[0.741s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/package.dsv
+[0.741s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/demo_cpp_service/share/ament_index/resource_index/packages/demo_cpp_service
+[0.741s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/cmake/demo_cpp_serviceConfig.cmake
+[0.741s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/cmake/demo_cpp_serviceConfig-version.cmake
+[0.742s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/package.xml
+[0.744s] Invoked command in '/home/yuan/chapt4/chapt4_ws/build/demo_cpp_service' returned '0': CMAKE_PREFIX_PATH=/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces:/home/yuan/chapt4/chapt4_ws/install/demo_cpp_service:/home/yuan/astra_ws/install/astra_camera:/home/yuan/astra_ws/install/astra_camera_msgs:/home/yuan/chapt4/chapt4_ws/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --install /home/yuan/chapt4/chapt4_ws/build/demo_cpp_service

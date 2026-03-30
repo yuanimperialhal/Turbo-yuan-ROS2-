@@ -1,0 +1,17 @@
+[0.009s] Invoking command in '/home/yuan/chapt2/chapt2_ws/src/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yuan/chapt2/chapt2_ws/src/build/demo_cpp_pkg -- -j16 -l16
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target learn_function[0m
+[0.053s] [ 50%] Built target learn_auto
+[0.054s] [ 50%] Built target learn_lambda
+[0.054s] [ 50%] [32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o[0m
+[0.054s] [ 50%] Built target learn_shared_ptr
+[0.054s] [ 64%] Built target learn_function
+[0.054s] [ 78%] Built target person_node
+[0.055s] [ 92%] Built target cpp_node
+[0.095s] [01m[K/home/yuan/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_thread.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kcpp-httplib/httplib.h: 没有那个文件或目录
+[0.095s]     6 | #include [01;31m[K<cpp-httplib/httplib.h>[m[K
+[0.095s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.095s] compilation terminated.
+[0.096s] gmake[2]: *** [CMakeFiles/learn_thread.dir/build.make:76：CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o] 错误 1
+[0.097s] gmake[1]: *** [CMakeFiles/Makefile2:305：CMakeFiles/learn_thread.dir/all] 错误 2
+[0.097s] gmake: *** [Makefile:146：all] 错误 2
+[0.099s] Invoked command in '/home/yuan/chapt2/chapt2_ws/src/build/demo_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yuan/chapt2/chapt2_ws/src/build/demo_cpp_pkg -- -j16 -l16

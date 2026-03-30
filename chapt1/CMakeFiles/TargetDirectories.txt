@@ -1,0 +1,3 @@
+/home/yuan/chapt1/CMakeFiles/learn_cmake.dir
+/home/yuan/chapt1/CMakeFiles/edit_cache.dir
+/home/yuan/chapt1/CMakeFiles/rebuild_cache.dir

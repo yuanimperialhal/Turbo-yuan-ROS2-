@@ -1,0 +1,266 @@
+[0.008s] Invoking command in '/home/yuan/chapt4/chapt4_ws/build/chapt4_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yuan/chapt4/chapt4_ws/src/chapt4_interfaces -DCMAKE_INSTALL_PREFIX=/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces
+[0.053s] -- The C compiler identification is GNU 11.4.0
+[0.099s] -- The CXX compiler identification is GNU 11.4.0
+[0.105s] -- Detecting C compiler ABI info
+[0.166s] -- Detecting C compiler ABI info - done
+[0.172s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.172s] -- Detecting C compile features
+[0.172s] -- Detecting C compile features - done
+[0.174s] -- Detecting CXX compiler ABI info
+[0.246s] -- Detecting CXX compiler ABI info - done
+[0.255s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.255s] -- Detecting CXX compile features
+[0.255s] -- Detecting CXX compile features - done
+[0.257s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.395s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.467s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.469s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.473s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.502s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.527s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.815s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.065s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.366s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.386s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.388s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.411s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.411s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.411s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.411s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.428s] -- Found PythonExtra: .so  
+[1.487s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.513s] -- Added test 'lint_cmake' to check CMake code style
+[1.515s] -- Added test 'xmllint' to check XML markup files
+[1.518s] -- Configuring done
+[1.552s] -- Generating done
+[1.562s] -- Build files have been written to: /home/yuan/chapt4/chapt4_ws/build/chapt4_interfaces
+[1.572s] Invoked command in '/home/yuan/chapt4/chapt4_ws/build/chapt4_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yuan/chapt4/chapt4_ws/src/chapt4_interfaces -DCMAKE_INSTALL_PREFIX=/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces
+[1.574s] Invoking command in '/home/yuan/chapt4/chapt4_ws/build/chapt4_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yuan/chapt4/chapt4_ws/build/chapt4_interfaces -- -j16 -l16
+[1.610s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.619s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.627s] [  5%] Built target ament_cmake_python_copy_chapt4_interfaces
+[1.817s] running egg_info
+[1.817s] creating chapt4_interfaces.egg-info
+[1.817s] writing chapt4_interfaces.egg-info/PKG-INFO
+[1.817s] writing dependency_links to chapt4_interfaces.egg-info/dependency_links.txt
+[1.818s] writing top-level names to chapt4_interfaces.egg-info/top_level.txt
+[1.818s] writing manifest file 'chapt4_interfaces.egg-info/SOURCES.txt'
+[1.819s] reading manifest file 'chapt4_interfaces.egg-info/SOURCES.txt'
+[1.820s] writing manifest file 'chapt4_interfaces.egg-info/SOURCES.txt'
+[1.843s] [  5%] Built target ament_cmake_python_build_chapt4_interfaces_egg
+[1.977s] [  5%] Built target chapt4_interfaces__cpp
+[1.978s] [ 10%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/face_detector__functions.c.o[0m
+[1.978s] [ 10%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__functions.c.o[0m
+[1.986s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.986s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.986s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.038s] [ 20%] [32m[1mLinking C shared library libchapt4_interfaces__rosidl_generator_c.so[0m
+[2.079s] [ 20%] Built target chapt4_interfaces__rosidl_generator_c
+[2.088s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.089s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.089s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.289s] [ 30%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chapt4_interfaces/srv/face_detector__type_support.cpp.o[0m
+[2.289s] [ 33%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chapt4_interfaces/srv/patrol__type_support.cpp.o[0m
+[2.321s] [ 35%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chapt4_interfaces/srv/detail/face_detector__type_support.cpp.o[0m
+[2.323s] [ 38%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chapt4_interfaces/srv/detail/patrol__type_support.cpp.o[0m
+[2.354s] [ 41%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chapt4_interfaces/srv/detail/dds_fastrtps/face_detector__type_support.cpp.o[0m
+[2.357s] [ 43%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chapt4_interfaces/srv/detail/dds_fastrtps/patrol__type_support.cpp.o[0m
+[2.401s] [ 46%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chapt4_interfaces/srv/face_detector__type_support.cpp.o[0m
+[2.402s] [ 48%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chapt4_interfaces/srv/patrol__type_support.cpp.o[0m
+[2.441s] [ 51%] [32m[1mLinking CXX shared library libchapt4_interfaces__rosidl_typesupport_c.so[0m
+[2.444s] [ 53%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/face_detector__type_support.c.o[0m
+[2.444s] [ 56%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/patrol__type_support.c.o[0m
+[2.448s] [ 58%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chapt4_interfaces/srv/detail/face_detector__type_support_c.cpp.o[0m
+[2.450s] [ 61%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chapt4_interfaces/srv/detail/patrol__type_support_c.cpp.o[0m
+[2.489s] [ 61%] Built target chapt4_interfaces__rosidl_typesupport_c
+[2.506s] [ 64%] [32m[1mLinking C shared library libchapt4_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.556s] [ 64%] Built target chapt4_interfaces__rosidl_typesupport_introspection_c
+[2.579s] [ 66%] [32m[1mLinking CXX shared library libchapt4_interfaces__rosidl_typesupport_cpp.so[0m
+[2.623s] [ 66%] Built target chapt4_interfaces__rosidl_typesupport_cpp
+[2.747s] [ 69%] [32m[1mLinking CXX shared library libchapt4_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.766s] [ 71%] [32m[1mLinking CXX shared library libchapt4_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.787s] [ 74%] [32m[1mLinking CXX shared library libchapt4_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.824s] [ 74%] Built target chapt4_interfaces__rosidl_typesupport_introspection_cpp
+[2.848s] [ 74%] Built target chapt4_interfaces__rosidl_typesupport_fastrtps_c
+[2.860s] [ 74%] Built target chapt4_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.879s] [ 74%] Built target chapt4_interfaces
+[2.898s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.460s] [ 76%] Built target chapt4_interfaces__py
+[3.481s] [ 82%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chapt4_interfaces/srv/_face_detector_s.c.o[0m
+[3.481s] [ 82%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chapt4_interfaces/srv/_patrol_s.c.o[0m
+[3.714s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/chapt4_interfaces/libchapt4_interfaces__rosidl_generator_py.so[0m
+[3.783s] [ 84%] Built target chapt4_interfaces__rosidl_generator_py
+[3.801s] [ 87%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.801s] [ 89%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.801s] [ 92%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.891s] [100%] [32m[1mLinking C shared library rosidl_generator_py/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.891s] [100%] [32m[1mLinking C shared library rosidl_generator_py/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.891s] [100%] [32m[1mLinking C shared library rosidl_generator_py/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.928s] [100%] Built target chapt4_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.928s] [100%] Built target chapt4_interfaces__rosidl_typesupport_c__pyext
+[3.929s] [100%] Built target chapt4_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.940s] Invoked command in '/home/yuan/chapt4/chapt4_ws/build/chapt4_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yuan/chapt4/chapt4_ws/build/chapt4_interfaces -- -j16 -l16
+[3.949s] Invoking command in '/home/yuan/chapt4/chapt4_ws/build/chapt4_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yuan/chapt4/chapt4_ws/build/chapt4_interfaces
+[3.955s] -- Install configuration: ""
+[3.955s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/ament_index/resource_index/rosidl_interfaces/chapt4_interfaces
+[3.955s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[3.955s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[3.955s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[3.955s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__struct.h
+[3.956s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__type_support.h
+[3.956s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__functions.c
+[3.956s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__functions.h
+[3.956s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__functions.c
+[3.956s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__struct.h
+[3.956s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.h
+[3.956s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__functions.h
+[3.956s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/face_detector.h
+[3.956s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/patrol.h
+[3.957s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[3.957s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.957s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/library_path.sh
+[3.957s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/library_path.dsv
+[3.957s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_generator_c.so
+[3.958s] -- Set runtime path of "/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_generator_c.so" to ""
+[3.958s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[3.958s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[3.958s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[3.958s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__rosidl_typesupport_fastrtps_c.h
+[3.958s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_c.h
+[3.958s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[3.958s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.958s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.958s] -- Set runtime path of "/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.959s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[3.959s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[3.959s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[3.959s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__rosidl_typesupport_introspection_c.h
+[3.959s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.c
+[3.959s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__type_support.c
+[3.959s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_c.h
+[3.959s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[3.959s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.959s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_c.so
+[3.960s] -- Set runtime path of "/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.960s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_c.so
+[3.960s] -- Set runtime path of "/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_c.so" to ""
+[3.960s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[3.960s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[3.960s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/face_detector.hpp
+[3.961s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[3.961s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__type_support.hpp
+[3.961s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__traits.hpp
+[3.961s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__traits.hpp
+[3.961s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__struct.hpp
+[3.961s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__builder.hpp
+[3.961s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.hpp
+[3.961s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__builder.hpp
+[3.961s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__struct.hpp
+[3.961s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/patrol.hpp
+[3.962s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[3.962s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.962s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[3.962s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[3.962s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[3.962s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__rosidl_typesupport_fastrtps_cpp.hpp
+[3.962s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_cpp.hpp
+[3.962s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/dds_fastrtps
+[3.962s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[3.962s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.962s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.963s] -- Set runtime path of "/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.963s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[3.963s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[3.963s] -- Up-to-date: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[3.963s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_cpp.hpp
+[3.963s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__type_support.cpp
+[3.963s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.cpp
+[3.963s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__rosidl_typesupport_introspection_cpp.hpp
+[3.963s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.964s] -- Set runtime path of "/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.964s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_cpp.so
+[3.964s] -- Set runtime path of "/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.964s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/pythonpath.sh
+[3.964s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/pythonpath.dsv
+[3.965s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info
+[3.965s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.965s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[3.965s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.965s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[3.965s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces
+[3.965s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.965s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.966s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/libchapt4_interfaces__rosidl_generator_py.so
+[3.966s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.966s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.966s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv
+[3.966s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/_patrol_s.c
+[3.966s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/_face_detector_s.c
+[3.966s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/_patrol.py
+[3.966s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/__init__.py
+[3.967s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/_face_detector.py
+[3.967s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_c.c
+[3.967s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/__init__.py
+[3.967s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.995s] Listing '/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces'...
+[3.995s] Compiling '/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/__init__.py'...
+[3.995s] Listing '/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv'...
+[3.995s] Compiling '/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/__init__.py'...
+[3.996s] Compiling '/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/_face_detector.py'...
+[3.996s] Compiling '/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/_patrol.py'...
+[3.999s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.999s] -- Set runtime path of "/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.999s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.000s] -- Set runtime path of "/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.000s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.000s] -- Set runtime path of "/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.000s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_generator_py.so
+[4.001s] -- Set runtime path of "/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_generator_py.so" to ""
+[4.001s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector.idl
+[4.001s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/Patrol.idl
+[4.001s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector.srv
+[4.001s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector_Request.msg
+[4.001s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector_Response.msg
+[4.001s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/Patrol.srv
+[4.002s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/Patrol_Request.msg
+[4.002s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/Patrol_Response.msg
+[4.002s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/ament_index/resource_index/package_run_dependencies/chapt4_interfaces
+[4.002s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/ament_index/resource_index/parent_prefix_path/chapt4_interfaces
+[4.002s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/ament_prefix_path.sh
+[4.002s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/ament_prefix_path.dsv
+[4.003s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/path.sh
+[4.003s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/path.dsv
+[4.003s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.bash
+[4.003s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.sh
+[4.003s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.zsh
+[4.003s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.dsv
+[4.004s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/package.dsv
+[4.004s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/ament_index/resource_index/packages/chapt4_interfaces
+[4.004s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_cExport.cmake
+[4.004s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.004s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.004s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.005s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.005s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.005s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cExport.cmake
+[4.005s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.005s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_cppExport.cmake
+[4.005s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.005s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.006s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.006s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.006s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cppExport.cmake
+[4.006s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.006s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_pyExport.cmake
+[4.006s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.007s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.007s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.007s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.007s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.007s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.007s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.007s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.007s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfacesConfig.cmake
+[4.008s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfacesConfig-version.cmake
+[4.008s] -- Installing: /home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/package.xml
+[4.010s] Invoked command in '/home/yuan/chapt4/chapt4_ws/build/chapt4_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yuan/chapt4/chapt4_ws/build/chapt4_interfaces

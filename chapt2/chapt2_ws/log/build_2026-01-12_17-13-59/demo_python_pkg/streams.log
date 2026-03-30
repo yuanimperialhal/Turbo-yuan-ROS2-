@@ -1,0 +1,50 @@
+[0.442s] Invoking command in '/home/yuan/chapt2/chapt2_ws/src/demo_python_pkg': AMENT_PREFIX_PATH=/home/yuan/chapt2/chapt2_ws/install/demo_cpp_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yuan/chapt2/chapt2_ws/install/demo_cpp_pkg PYTHONPATH=/home/yuan/chapt2/chapt2_ws/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuan/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_pkg build --build-base /home/yuan/chapt2/chapt2_ws/build/demo_python_pkg/build install --record /home/yuan/chapt2/chapt2_ws/build/demo_python_pkg/install.log --single-version-externally-managed install_data
+[0.612s] running egg_info
+[0.612s] creating ../../build/demo_python_pkg/demo_python_pkg.egg-info
+[0.612s] writing ../../build/demo_python_pkg/demo_python_pkg.egg-info/PKG-INFO
+[0.612s] writing dependency_links to ../../build/demo_python_pkg/demo_python_pkg.egg-info/dependency_links.txt
+[0.613s] writing entry points to ../../build/demo_python_pkg/demo_python_pkg.egg-info/entry_points.txt
+[0.613s] writing requirements to ../../build/demo_python_pkg/demo_python_pkg.egg-info/requires.txt
+[0.613s] writing top-level names to ../../build/demo_python_pkg/demo_python_pkg.egg-info/top_level.txt
+[0.613s] writing manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.614s] reading manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.614s] adding license file 'LICENSE'
+[0.615s] writing manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.615s] running build
+[0.615s] running build_py
+[0.615s] creating /home/yuan/chapt2/chapt2_ws/build/demo_python_pkg/build
+[0.615s] creating /home/yuan/chapt2/chapt2_ws/build/demo_python_pkg/build/lib
+[0.615s] creating /home/yuan/chapt2/chapt2_ws/build/demo_python_pkg/build/lib/demo_python_pkg
+[0.615s] copying demo_python_pkg/writer_node.py -> /home/yuan/chapt2/chapt2_ws/build/demo_python_pkg/build/lib/demo_python_pkg
+[0.615s] copying demo_python_pkg/learn_thread.py -> /home/yuan/chapt2/chapt2_ws/build/demo_python_pkg/build/lib/demo_python_pkg
+[0.615s] copying demo_python_pkg/__init__.py -> /home/yuan/chapt2/chapt2_ws/build/demo_python_pkg/build/lib/demo_python_pkg
+[0.615s] copying demo_python_pkg/person_node.py -> /home/yuan/chapt2/chapt2_ws/build/demo_python_pkg/build/lib/demo_python_pkg
+[0.615s] copying demo_python_pkg/python_node.py -> /home/yuan/chapt2/chapt2_ws/build/demo_python_pkg/build/lib/demo_python_pkg
+[0.616s] running install
+[0.616s] running install_lib
+[0.616s] creating /home/yuan/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg
+[0.616s] copying /home/yuan/chapt2/chapt2_ws/build/demo_python_pkg/build/lib/demo_python_pkg/writer_node.py -> /home/yuan/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg
+[0.616s] copying /home/yuan/chapt2/chapt2_ws/build/demo_python_pkg/build/lib/demo_python_pkg/learn_thread.py -> /home/yuan/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg
+[0.617s] copying /home/yuan/chapt2/chapt2_ws/build/demo_python_pkg/build/lib/demo_python_pkg/__init__.py -> /home/yuan/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg
+[0.617s] copying /home/yuan/chapt2/chapt2_ws/build/demo_python_pkg/build/lib/demo_python_pkg/person_node.py -> /home/yuan/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg
+[0.617s] copying /home/yuan/chapt2/chapt2_ws/build/demo_python_pkg/build/lib/demo_python_pkg/python_node.py -> /home/yuan/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg
+[0.617s] byte-compiling /home/yuan/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/writer_node.py to writer_node.cpython-310.pyc
+[0.617s] byte-compiling /home/yuan/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/learn_thread.py to learn_thread.cpython-310.pyc
+[0.618s] byte-compiling /home/yuan/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/__init__.py to __init__.cpython-310.pyc
+[0.618s] byte-compiling /home/yuan/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/person_node.py to person_node.cpython-310.pyc
+[0.618s] byte-compiling /home/yuan/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/python_node.py to python_node.cpython-310.pyc
+[0.618s] running install_data
+[0.618s] creating /home/yuan/chapt2/chapt2_ws/install/demo_python_pkg/share/ament_index
+[0.618s] creating /home/yuan/chapt2/chapt2_ws/install/demo_python_pkg/share/ament_index/resource_index
+[0.619s] creating /home/yuan/chapt2/chapt2_ws/install/demo_python_pkg/share/ament_index/resource_index/packages
+[0.619s] copying resource/demo_python_pkg -> /home/yuan/chapt2/chapt2_ws/install/demo_python_pkg/share/ament_index/resource_index/packages
+[0.619s] copying package.xml -> /home/yuan/chapt2/chapt2_ws/install/demo_python_pkg/share/demo_python_pkg
+[0.619s] running install_egg_info
+[0.620s] Copying ../../build/demo_python_pkg/demo_python_pkg.egg-info to /home/yuan/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info
+[0.621s] running install_scripts
+[0.636s] Installing learn_thread script to /home/yuan/chapt2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg
+[0.636s] Installing person_node script to /home/yuan/chapt2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg
+[0.636s] Installing python_node script to /home/yuan/chapt2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg
+[0.636s] Installing writer_node script to /home/yuan/chapt2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg
+[0.636s] writing list of installed files to '/home/yuan/chapt2/chapt2_ws/build/demo_python_pkg/install.log'
+[0.655s] Invoked command in '/home/yuan/chapt2/chapt2_ws/src/demo_python_pkg' returned '0': AMENT_PREFIX_PATH=/home/yuan/chapt2/chapt2_ws/install/demo_cpp_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yuan/chapt2/chapt2_ws/install/demo_cpp_pkg PYTHONPATH=/home/yuan/chapt2/chapt2_ws/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuan/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_pkg build --build-base /home/yuan/chapt2/chapt2_ws/build/demo_python_pkg/build install --record /home/yuan/chapt2/chapt2_ws/build/demo_python_pkg/install.log --single-version-externally-managed install_data

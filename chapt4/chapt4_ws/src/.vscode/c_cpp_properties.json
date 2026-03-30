@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/ros/${ROS_DISTRO}/include/**",
+                "/home/yuan/chapt4/chapt4_ws/src/chapt4_interfaces/include/**",
+                "/home/yuan/chapt4/chapt4_ws/install/chapt4_interfaces/include/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
